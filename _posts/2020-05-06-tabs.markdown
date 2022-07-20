@@ -1,0 +1,64 @@
+---
+layout: post
+title: "Tabs"
+categories: Navigation
+---
+
+Divide data collections which are related yet belong to different types.
+### Basic
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <div class="tabs tabs-container">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-tabs-ul" role="tablist">
+                <li class="active">
+                    <a title="Tab A" data-target="#A" role="tab" data-toggle="tab" aria-expanded="true">Tab A</a>
+                </li>
+                <li>
+                    <a title="Tab B" data-target="#B" role="tab" data-toggle="tab" aria-expanded="false">Tab B</a>
+                </li>
+                <li>
+                    <a title="Tab C" data-target="#C" role="tab" data-toggle="tab" aria-expanded="false">Tab C</a>
+                </li>
+                <li>
+                    <a title="Tab D" data-target="#D" role="tab" data-toggle="tab" aria-expanded="false">Tab D</a>
+                </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="A">Content in Tab A</div>
+                <div role="tabpanel" class="tab-pane" id="B">Content in Tab B</div>
+                <div role="tabpanel" class="tab-pane" id="C">Content in Tab C</div>
+                <div role="tabpanel" class="tab-pane" id="D">Content in Tab D</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+```html
+<div class="tabs tabs-container">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs nav-tabs-ul" role="tablist">
+        <li class="active">
+            <a title="Tab A" data-target="#A" role="tab" data-toggle="tab" aria-expanded="true">Tab A</a>
+        </li>
+        <li>
+            <a title="Tab B" data-target="#B" role="tab" data-toggle="tab" aria-expanded="false">Tab B</a>
+        </li>
+        <li>
+            <a title="Tab C" data-target="#C" role="tab" data-toggle="tab" aria-expanded="false">Tab C</a>
+        </li>
+        <li>
+            <a title="Tab D" data-target="#D" role="tab" data-toggle="tab" aria-expanded="false">Tab D</a>
+        </li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="A">Content in Tab A</div>
+        <div role="tabpanel" class="tab-pane" id="B">Content in Tab B</div>
+        <div role="tabpanel" class="tab-pane" id="C">Content in Tab C</div>
+        <div role="tabpanel" class="tab-pane" id="D">Content in Tab D</div>
+    </div>
+</div>
+```

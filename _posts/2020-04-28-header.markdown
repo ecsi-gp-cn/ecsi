@@ -1,0 +1,195 @@
+---
+layout: post
+title:  "Header"
+categories: Navigation
+---
+
+### Desktop and Tablet Header
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <header class="header-section header-desktop">
+            <div class="header-infobar">
+                <div class="header-infobar-left">
+                    <a href="">
+                        <img src="https://heartlanddev.ecsi.net/images/re-brand/ecsi-logo-white-medium.png">
+                    </a>
+                </div>
+                <div class="header-infobar-right">
+                    <ul class="header-account">
+                        <li>
+                            <a href="" class="white-link">Sign In</a>
+                        </li>
+                        <li>
+                            <a href="" class="white-link">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="header-nav">
+                <div class="header-nav-item">
+                    <a href="" class="active">Home</a>
+                </div>
+                <div class="header-nav-item-submenu">
+                    <a title="Schools">Schools <i class="fa fa-sort-desc" aria-hidden="true"></i></a>
+                    <ul>
+                        <li>
+                            <a title="Chatham Test University">Chatham Test University</a>
+                        </li>
+                        <li>
+                            <a title="Refund University">Refund University</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-nav-item">
+                    <a href="">Download Forms</a>
+                </div>
+                <div class="header-nav-item">
+                    <a href="">Help Center</a>
+                </div>
+                <div class="header-nav-item">
+                    <a href="">Contact Us</a>
+                </div>
+            </div>
+        </header>
+    </div>
+</div>
+
+```html
+<header class="header-section header-desktop">
+    <div class="header-infobar">
+        <div class="header-infobar-left">
+            <a href="">
+                <img src="https://heartlanddev.ecsi.net/images/re-brand/ecsi-logo-white-medium.png">
+            </a>
+        </div>
+        <div class="header-infobar-right">
+            <ul class="header-account">
+                <li>
+                    <a href="" class="white-link">Sign In</a>
+                </li>
+                <li>
+                    <a href="" class="white-link">Register</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="header-nav">
+        <div class="header-nav-item">
+            <a href="" class="active">Home</a>
+        </div>
+        <div class="header-nav-item-submenu">
+            <a title="Schools">Schools <i class="fa fa-sort-desc" aria-hidden="true"></i></a>
+            <ul>
+                <li>
+                    <a title="Chatham Test University">Chatham Test University</a>
+                </li>
+                <li>
+                    <a title="Refund University">Refund University</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-nav-item">
+            <a href="">Download Forms</a>
+        </div>
+        <div class="header-nav-item">
+            <a href="">Help Center</a>
+        </div>
+        <div class="header-nav-item">
+            <a href="">Contact Us</a>
+        </div>
+    </div>
+</header>
+```
+
+### Mobile Header
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body" style="width: 480px;">
+        <header class="header-section header-mobile" style="display: block;">
+            <div class="header-infobar header-infobar-mobile">
+                <div class="header-infobar-left header-infobar-mobile-left">
+                    <a href="">
+                        <img src="https://heartlanddev.ecsi.net/images/re-brand/ecsi-logo-white-medium.png">
+                    </a>
+                </div>
+                <div class="header-infobar-right">
+                    <button type="button" data-toggle="collapse" data-target="#nav-mobile-collapse" aria-expanded="false" class="header-nav-collapse-button">
+                        <i class="fa fa-bars fa-2x"></i>
+                        <i class="fa fa-close fa-2x"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div id="nav-mobile-collapse" class="collapse">
+                <ul class="header-account header-account-mobile">
+                    <li>
+                        <a href="" class="white-link">Sign In</a>
+                    </li>
+                    <li>
+                        <a href="" class="white-link">Register</a>
+                    </li>
+                </ul>
+                <div class="header-nav">
+                    <div class="header-nav-item header-nav-item-mobile">
+                        <a href="" class="active">Home</a>
+                    </div>
+                    <div class="header-nav-item header-nav-item-mobile">
+                        <a href="">Download Forms</a>
+                    </div>
+                    <div class="header-nav-item header-nav-item-mobile">
+                        <a href="">Help Center</a>
+                    </div>
+                    <div class="header-nav-item header-nav-item-mobile">
+                        <a href="">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+</div>
+
+```html
+<header class="header-section header-mobile" style="display: block;">
+    <div class="header-infobar header-infobar-mobile">
+        <div class="header-infobar-left header-infobar-mobile-left">
+            <a href="">
+                <img src="https://heartlanddev.ecsi.net/images/re-brand/ecsi-logo-white-medium.png">
+            </a>
+        </div>
+        <div class="header-infobar-right">
+            <button type="button" data-toggle="collapse" data-target="#nav-mobile-collapse" aria-expanded="false" class="header-nav-collapse-button">
+                <i class="fa fa-bars fa-2x"></i>
+                <i class="fa fa-close fa-2x"></i>
+            </button>
+        </div>
+    </div>
+
+    <div id="nav-mobile-collapse" class="collapse">
+        <ul class="header-account header-account-mobile">
+            <li>
+                <a href="" class="white-link">Sign In</a>
+            </li>
+            <li>
+                <a href="" class="white-link">Register</a>
+            </li>
+        </ul>
+        <div class="header-nav">
+            <div class="header-nav-item header-nav-item-mobile">
+                <a href="" class="active">Home</a>
+            </div>
+            <div class="header-nav-item header-nav-item-mobile">
+                <a href="">Download Forms</a>
+            </div>
+            <div class="header-nav-item header-nav-item-mobile">
+                <a href="">Help Center</a>
+            </div>
+            <div class="header-nav-item header-nav-item-mobile">
+                <a href="">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</header>
+```
