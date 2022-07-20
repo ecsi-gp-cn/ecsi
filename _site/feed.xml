@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-07-20T16:49:42+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">my title</title><subtitle>my description</subtitle><entry><title type="html">Message</title><link href="http://localhost:4000/notice/2020/06/08/message.html" rel="alternate" type="text/html" title="Message" /><published>2020-06-08T00:00:00+08:00</published><updated>2020-06-08T00:00:00+08:00</updated><id>http://localhost:4000/notice/2020/06/08/message</id><content type="html" xml:base="http://localhost:4000/notice/2020/06/08/message.html"><![CDATA[<h3 id="system-message">System Message</h3>
+
+<p>Displays system messages at window bottom.</p>
+
+<h4 id="show-content">Show Content</h4>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body" style="position: relative; height: 80px;">
+        <div class="system-message-container" style="position: absolute; bottom: 0; left: 0; right: 0; top: 10px;">
+            <div class="content-wrapper">
+                <div class="layout">
+                    <div class="msg">
+                        Do you have loan interest or tuition payments to claim on your tax return? Click <a href="https://heartland.ecsi.net/index.main.html#/access/FAQtaxDocuments">here</a> to access your 1098-E or 1098-T tax statement.
+                    </div>
+                    <button class="button">
+                        Got it
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"system-message-container"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content-wrapper"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"layout"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"msg"</span><span class="nt">&gt;</span>
+                Do you have loan interest or tuition payments to claim on your tax return? Click <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://heartland.ecsi.net/index.main.html#/access/FAQtaxDocuments"</span><span class="nt">&gt;</span>here<span class="nt">&lt;/a&gt;</span> to access your 1098-E or 1098-T tax statement.
+            <span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+                Got it
+            <span class="nt">&lt;/button&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="hide-content">Hide Content</h4>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body" style="position: relative; height: 80px;">
+        <div class="system-message-container" style="position: absolute; bottom: 0; left: 0; right: 0; top: 10px;">
+            <div tabindex="0" class="icon" style="left: 10px; top: 10px;">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-info fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"system-message-container"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">tabindex=</span><span class="s">"0"</span> <span class="na">class=</span><span class="s">"icon"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"fa-stack fa-lg"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-circle fa-stack-2x"</span><span class="nt">&gt;&lt;/i&gt;</span>
+            <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-info fa-stack-1x fa-inverse"</span><span class="nt">&gt;&lt;/i&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="Notice" /><summary type="html"><![CDATA[System Message Displays system messages at window bottom. Show Content Example Do you have loan interest or tuition payments to claim on your tax return? Click here to access your 1098-E or 1098-T tax statement. Got it &lt;div class="system-message-container"&gt; &lt;div class="content-wrapper"&gt; &lt;div class="layout"&gt; &lt;div class="msg"&gt; Do you have loan interest or tuition payments to claim on your tax return? Click &lt;a href="https://heartland.ecsi.net/index.main.html#/access/FAQtaxDocuments"&gt;here&lt;/a&gt; to access your 1098-E or 1098-T tax statement. &lt;/div&gt; &lt;button class="button"&gt; Got it &lt;/button&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; Hide Content Example &lt;div class="system-message-container"&gt; &lt;div tabindex="0" class="icon"&gt; &lt;span class="fa-stack fa-lg"&gt; &lt;i class="fa fa-circle fa-stack-2x"&gt;&lt;/i&gt; &lt;i class="fa fa-info fa-stack-1x fa-inverse"&gt;&lt;/i&gt; &lt;/span&gt; &lt;/div&gt; &lt;/div&gt;]]></summary></entry><entry><title type="html">Card</title><link href="http://localhost:4000/others/2020/05/08/card.html" rel="alternate" type="text/html" title="Card" /><published>2020-05-08T00:00:00+08:00</published><updated>2020-05-08T00:00:00+08:00</updated><id>http://localhost:4000/others/2020/05/08/card</id><content type="html" xml:base="http://localhost:4000/others/2020/05/08/card.html"><![CDATA[<p>Integrate information in a card container.</p>
+<h3 id="basic">Basic</h3>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <div class="card-container">
+            <div class="col-sm-6 col-md-4">
+                <div class="card-item" role="button">
+                    <div class="card-item-top"></div>
+                    <h3><span>Are You New to ECSI?</span></h3>
+                    <p>Start here to learn how to register for a user profile, find your account number, connect an account to your user profile, and manage your user profile.</p>
+                    <span class="jump">GO &gt;&gt;</span>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card-item" role="button">
+                    <div class="card-item-top"></div>
+                    <h3><span>Managing Your Student Loan Account</span></h3>
+                    <p>Click here to access information about your student loan account.  Even if your student loan is past due, this section will provide you with helpful information.</p>
+                    <span class="jump">GO &gt;&gt;</span>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card-item" role="button">
+                    <div class="card-item-top"></div>
+                    <h3><span>Manage Unpaid Tuition And Fees</span></h3>
+                    <p>If you have unpaid tuition and fees with your school, click here to learn more about your options
+                        to get your account paid in full. Access information to show what transactions are included in
+                        the balance due and select your payment option. <em>Please note that this section is not for past due loans.</em></p>
+                    <span class="jump">GO &gt;&gt;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-container"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-6 col-md-4"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-item"</span> <span class="na">role=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-item-top"</span><span class="nt">&gt;&lt;/div&gt;</span>
+            <span class="nt">&lt;h3&gt;&lt;span&gt;</span>Are You New to ECSI?<span class="nt">&lt;/span&gt;&lt;/h3&gt;</span>
+            <span class="nt">&lt;p&gt;</span>Start here to learn how to register for a user profile, find your account number, connect an account to your user profile, and manage your user profile.<span class="nt">&lt;/p&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"jump"</span><span class="nt">&gt;</span>GO <span class="ni">&amp;gt;&amp;gt;</span><span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h3 id="with-images">With images</h3>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <div class="card-container">
+            <div class="col-sm-6 col-md-4">
+                <div class="card-item card-img-item" role="button">
+                    <div class="card-item-top"></div>
+                    <img src="https://heartlandqa.ecsi.net/images/icons/icon-1098-E.png" alt="Manage Your Student Loan Account" />
+                    <h3><span>Manage Your Student Loan Account</span></h3>
+                    <span class="jump">GO &gt;&gt;</span>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card-item card-img-item" role="button">
+                    <div class="card-item-top"></div>
+                    <img src="https://heartlandqa.ecsi.net/images/icons/icon-1098-T.png" alt="pencil icon" />
+                    <h3><span>Click here to Learn About Your 1098-T Tax Document.</span></h3>
+                    <span class="jump">GO &gt;&gt;</span>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card-item card-img-item" role="button">
+                    <div class="card-item-top"></div>
+                    <img src="https://heartlandqa.ecsi.net/images/icons/icon-1098-E.png" alt="dollar sign icon" />
+                    <h3><span>Click here to Learn About Your 1098-E Tax Document.</span></h3>
+                    <span class="jump">GO &gt;&gt;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-container"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-6 col-md-4"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-item card-img-item"</span> <span class="na">role=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-item-top"</span><span class="nt">&gt;&lt;/div&gt;</span>
+            <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"https://heartlandqa.ecsi.net/images/icons/icon-1098-E.png"</span> <span class="na">alt=</span><span class="s">"Manage Your Student Loan Account"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;h3&gt;&lt;span&gt;</span>Manage Your Student Loan Account<span class="nt">&lt;/span&gt;&lt;/h3&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"jump"</span><span class="nt">&gt;</span>GO <span class="ni">&amp;gt;&amp;gt;</span><span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="Others" /><summary type="html"><![CDATA[Integrate information in a card container. Basic Example Are You New to ECSI? Start here to learn how to register for a user profile, find your account number, connect an account to your user profile, and manage your user profile. GO &gt;&gt; Managing Your Student Loan Account Click here to access information about your student loan account. Even if your student loan is past due, this section will provide you with helpful information. GO &gt;&gt; Manage Unpaid Tuition And Fees If you have unpaid tuition and fees with your school, click here to learn more about your options to get your account paid in full. Access information to show what transactions are included in the balance due and select your payment option. Please note that this section is not for past due loans. GO &gt;&gt; &lt;div class="card-container"&gt; &lt;div class="col-sm-6 col-md-4"&gt; &lt;div class="card-item" role="button"&gt; &lt;div class="card-item-top"&gt;&lt;/div&gt; &lt;h3&gt;&lt;span&gt;Are You New to ECSI?&lt;/span&gt;&lt;/h3&gt; &lt;p&gt;Start here to learn how to register for a user profile, find your account number, connect an account to your user profile, and manage your user profile.&lt;/p&gt; &lt;span class="jump"&gt;GO &amp;gt;&amp;gt;&lt;/span&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; With images Example Manage Your Student Loan Account GO &gt;&gt; Click here to Learn About Your 1098-T Tax Document. GO &gt;&gt; Click here to Learn About Your 1098-E Tax Document. GO &gt;&gt; &lt;div class="card-container"&gt; &lt;div class="col-sm-6 col-md-4"&gt; &lt;div class="card-item card-img-item" role="button"&gt; &lt;div class="card-item-top"&gt;&lt;/div&gt; &lt;img src="https://heartlandqa.ecsi.net/images/icons/icon-1098-E.png" alt="Manage Your Student Loan Account"&gt; &lt;h3&gt;&lt;span&gt;Manage Your Student Loan Account&lt;/span&gt;&lt;/h3&gt; &lt;span class="jump"&gt;GO &amp;gt;&amp;gt;&lt;/span&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;]]></summary></entry><entry><title type="html">Accordion</title><link href="http://localhost:4000/navigation/2020/05/07/accordion.html" rel="alternate" type="text/html" title="Accordion" /><published>2020-05-07T00:00:00+08:00</published><updated>2020-05-07T00:00:00+08:00</updated><id>http://localhost:4000/navigation/2020/05/07/accordion</id><content type="html" xml:base="http://localhost:4000/navigation/2020/05/07/accordion.html"><![CDATA[<h3 id="accordion">Accordion</h3>
+<div class="panel panel-success">
+	<div class="panel-heading">Collapse based on Bootstrap</div>
+	<div class="panel-body">
+		<div class="panel-group panel-group-container" id="accordion-demo" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion-demo" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Getting Started
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        Getting Started
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-demo" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Account &amp; Settings
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                        Account &amp; Settings
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion-demo" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            FAQs
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                        FAQs
+                    </div>
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-group panel-group-container"</span> <span class="na">id=</span><span class="s">"accordion"</span> <span class="na">role=</span><span class="s">"tablist"</span> <span class="na">aria-multiselectable=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-heading"</span> <span class="na">role=</span><span class="s">"tab"</span> <span class="na">id=</span><span class="s">"headingOne"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"panel-title"</span><span class="nt">&gt;</span>
+				<span class="nt">&lt;a</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-parent=</span><span class="s">"#accordion"</span> <span class="na">data-target=</span><span class="s">"#collapseOne"</span>
+					<span class="na">aria-expanded=</span><span class="s">"true"</span> <span class="na">aria-controls=</span><span class="s">"collapseOne"</span><span class="nt">&gt;</span>
+					Getting Started
+				<span class="nt">&lt;/a&gt;</span>
+			<span class="nt">&lt;/h4&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"collapseOne"</span> <span class="na">class=</span><span class="s">"panel-collapse collapse in"</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby=</span><span class="s">"headingOne"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">&gt;</span>
+				Getting Started
+			<span class="nt">&lt;/div&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-heading"</span> <span class="na">role=</span><span class="s">"tab"</span> <span class="na">id=</span><span class="s">"headingTwo"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"panel-title"</span><span class="nt">&gt;</span>
+				<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"collapsed"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-parent=</span><span class="s">"#accordion"</span>
+					<span class="na">data-target=</span><span class="s">"#collapseTwo"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-controls=</span><span class="s">"collapseTwo"</span><span class="nt">&gt;</span>
+					Account <span class="err">&amp;</span> Settings
+				<span class="nt">&lt;/a&gt;</span>
+			<span class="nt">&lt;/h4&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"collapseTwo"</span> <span class="na">class=</span><span class="s">"panel-collapse collapse"</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby=</span><span class="s">"headingTwo"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">&gt;</span>
+				Account <span class="err">&amp;</span> Settings
+			<span class="nt">&lt;/div&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-heading"</span> <span class="na">role=</span><span class="s">"tab"</span> <span class="na">id=</span><span class="s">"headingThree"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"panel-title"</span><span class="nt">&gt;</span>
+				<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"collapsed"</span> <span class="na">role=</span><span class="s">"button"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-parent=</span><span class="s">"#accordion"</span>
+					<span class="na">data-target=</span><span class="s">"#collapseThree"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span> <span class="na">aria-controls=</span><span class="s">"collapseThree"</span><span class="nt">&gt;</span>
+					FAQs
+				<span class="nt">&lt;/a&gt;</span>
+			<span class="nt">&lt;/h4&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+		<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"collapseThree"</span> <span class="na">class=</span><span class="s">"panel-collapse collapse"</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">aria-labelledby=</span><span class="s">"headingThree"</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">&gt;</span>
+				FAQs
+			<span class="nt">&lt;/div&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="Navigation" /><summary type="html"><![CDATA[Accordion Collapse based on Bootstrap Getting Started Getting Started Account &amp; Settings Account &amp; Settings FAQs FAQs &lt;div class="panel-group panel-group-container" id="accordion" role="tablist" aria-multiselectable="true"&gt; &lt;div class="panel panel-default"&gt; &lt;div class="panel-heading" role="tab" id="headingOne"&gt; &lt;h4 class="panel-title"&gt; &lt;a role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"&gt; Getting Started &lt;/a&gt; &lt;/h4&gt; &lt;/div&gt; &lt;div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne"&gt; &lt;div class="panel-body"&gt; Getting Started &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class="panel panel-default"&gt; &lt;div class="panel-heading" role="tab" id="headingTwo"&gt; &lt;h4 class="panel-title"&gt; &lt;a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"&gt; Account &amp; Settings &lt;/a&gt; &lt;/h4&gt; &lt;/div&gt; &lt;div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo"&gt; &lt;div class="panel-body"&gt; Account &amp; Settings &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class="panel panel-default"&gt; &lt;div class="panel-heading" role="tab" id="headingThree"&gt; &lt;h4 class="panel-title"&gt; &lt;a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"&gt; FAQs &lt;/a&gt; &lt;/h4&gt; &lt;/div&gt; &lt;div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree"&gt; &lt;div class="panel-body"&gt; FAQs &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;]]></summary></entry><entry><title type="html">Alert</title><link href="http://localhost:4000/notice/2020/05/06/alert.html" rel="alternate" type="text/html" title="Alert" /><published>2020-05-06T00:00:00+08:00</published><updated>2020-05-06T00:00:00+08:00</updated><id>http://localhost:4000/notice/2020/05/06/alert</id><content type="html" xml:base="http://localhost:4000/notice/2020/05/06/alert.html"><![CDATA[<p>Displays important alert messages.</p>
+<h3 id="success">Success</h3>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <div class="alert-message alert-message-success">
+            Success! Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+        </div>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert-message alert-message-success"</span><span class="nt">&gt;</span>
+    Success! Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h3 id="warning">Warning</h3>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <div class="alert-message alert-message-warning">
+            Warning! Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+        </div>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert-message alert-message-warning"</span><span class="nt">&gt;</span>
+    Warning! Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h3 id="error">Error</h3>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <div class="alert-message alert-message-error">
+            Error! Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+        </div>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert-message alert-message-error"</span><span class="nt">&gt;</span>
+    Error! Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="Notice" /><summary type="html"><![CDATA[Displays important alert messages. Success Example Success! Duis mollis, est non commodo luctus, nisi erat porttitor ligula. &lt;div class="alert-message alert-message-success"&gt; Success! Duis mollis, est non commodo luctus, nisi erat porttitor ligula. &lt;/div&gt; Warning Example Warning! Duis mollis, est non commodo luctus, nisi erat porttitor ligula. &lt;div class="alert-message alert-message-warning"&gt; Warning! Duis mollis, est non commodo luctus, nisi erat porttitor ligula. &lt;/div&gt; Error Example Error! Duis mollis, est non commodo luctus, nisi erat porttitor ligula. &lt;div class="alert-message alert-message-error"&gt; Error! Duis mollis, est non commodo luctus, nisi erat porttitor ligula. &lt;/div&gt;]]></summary></entry><entry><title type="html">Breadcrumb</title><link href="http://localhost:4000/navigation/2020/05/06/breadcrumb.html" rel="alternate" type="text/html" title="Breadcrumb" /><published>2020-05-06T00:00:00+08:00</published><updated>2020-05-06T00:00:00+08:00</updated><id>http://localhost:4000/navigation/2020/05/06/breadcrumb</id><content type="html" xml:base="http://localhost:4000/navigation/2020/05/06/breadcrumb.html"><![CDATA[<p>Displays the location of the current page, making it easier to browser back.</p>
+<h3 id="basic">Basic</h3>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <ol class="breadcrumb" style="margin-bottom: 0;">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="active">Data</li>
+        </ol>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ol</span> <span class="na">class=</span><span class="s">"breadcrumb"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Home<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Library<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;</span>Data<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="Navigation" /><summary type="html"><![CDATA[Displays the location of the current page, making it easier to browser back. Basic Example Home Library Data &lt;ol class="breadcrumb"&gt; &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="#"&gt;Library&lt;/a&gt;&lt;/li&gt; &lt;li class="active"&gt;Data&lt;/li&gt; &lt;/ol&gt;]]></summary></entry><entry><title type="html">Tabs</title><link href="http://localhost:4000/navigation/2020/05/06/tabs.html" rel="alternate" type="text/html" title="Tabs" /><published>2020-05-06T00:00:00+08:00</published><updated>2020-05-06T00:00:00+08:00</updated><id>http://localhost:4000/navigation/2020/05/06/tabs</id><content type="html" xml:base="http://localhost:4000/navigation/2020/05/06/tabs.html"><![CDATA[<p>Divide data collections which are related yet belong to different types.</p>
+<h3 id="basic">Basic</h3>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <div class="tabs tabs-container">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-tabs-ul" role="tablist">
+                <li class="active">
+                    <a title="Tab A" data-target="#A" role="tab" data-toggle="tab" aria-expanded="true">Tab A</a>
+                </li>
+                <li>
+                    <a title="Tab B" data-target="#B" role="tab" data-toggle="tab" aria-expanded="false">Tab B</a>
+                </li>
+                <li>
+                    <a title="Tab C" data-target="#C" role="tab" data-toggle="tab" aria-expanded="false">Tab C</a>
+                </li>
+                <li>
+                    <a title="Tab D" data-target="#D" role="tab" data-toggle="tab" aria-expanded="false">Tab D</a>
+                </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="A">Content in Tab A</div>
+                <div role="tabpanel" class="tab-pane" id="B">Content in Tab B</div>
+                <div role="tabpanel" class="tab-pane" id="C">Content in Tab C</div>
+                <div role="tabpanel" class="tab-pane" id="D">Content in Tab D</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs tabs-container"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Nav tabs --&gt;</span>
+    <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"nav nav-tabs nav-tabs-ul"</span> <span class="na">role=</span><span class="s">"tablist"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">title=</span><span class="s">"Tab A"</span> <span class="na">data-target=</span><span class="s">"#A"</span> <span class="na">role=</span><span class="s">"tab"</span> <span class="na">data-toggle=</span><span class="s">"tab"</span> <span class="na">aria-expanded=</span><span class="s">"true"</span><span class="nt">&gt;</span>Tab A<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">title=</span><span class="s">"Tab B"</span> <span class="na">data-target=</span><span class="s">"#B"</span> <span class="na">role=</span><span class="s">"tab"</span> <span class="na">data-toggle=</span><span class="s">"tab"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>Tab B<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">title=</span><span class="s">"Tab C"</span> <span class="na">data-target=</span><span class="s">"#C"</span> <span class="na">role=</span><span class="s">"tab"</span> <span class="na">data-toggle=</span><span class="s">"tab"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>Tab C<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">title=</span><span class="s">"Tab D"</span> <span class="na">data-target=</span><span class="s">"#D"</span> <span class="na">role=</span><span class="s">"tab"</span> <span class="na">data-toggle=</span><span class="s">"tab"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>Tab D<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+    <span class="c">&lt;!-- Tab panes --&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tab-content"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">class=</span><span class="s">"tab-pane active"</span> <span class="na">id=</span><span class="s">"A"</span><span class="nt">&gt;</span>Content in Tab A<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">class=</span><span class="s">"tab-pane"</span> <span class="na">id=</span><span class="s">"B"</span><span class="nt">&gt;</span>Content in Tab B<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">class=</span><span class="s">"tab-pane"</span> <span class="na">id=</span><span class="s">"C"</span><span class="nt">&gt;</span>Content in Tab C<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">class=</span><span class="s">"tab-pane"</span> <span class="na">id=</span><span class="s">"D"</span><span class="nt">&gt;</span>Content in Tab D<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="Navigation" /><summary type="html"><![CDATA[Divide data collections which are related yet belong to different types. Basic Example Tab A Tab B Tab C Tab D Content in Tab A Content in Tab B Content in Tab C Content in Tab D &lt;div class="tabs tabs-container"&gt; &lt;!-- Nav tabs --&gt; &lt;ul class="nav nav-tabs nav-tabs-ul" role="tablist"&gt; &lt;li class="active"&gt; &lt;a title="Tab A" data-target="#A" role="tab" data-toggle="tab" aria-expanded="true"&gt;Tab A&lt;/a&gt; &lt;/li&gt; &lt;li&gt; &lt;a title="Tab B" data-target="#B" role="tab" data-toggle="tab" aria-expanded="false"&gt;Tab B&lt;/a&gt; &lt;/li&gt; &lt;li&gt; &lt;a title="Tab C" data-target="#C" role="tab" data-toggle="tab" aria-expanded="false"&gt;Tab C&lt;/a&gt; &lt;/li&gt; &lt;li&gt; &lt;a title="Tab D" data-target="#D" role="tab" data-toggle="tab" aria-expanded="false"&gt;Tab D&lt;/a&gt; &lt;/li&gt; &lt;/ul&gt; &lt;!-- Tab panes --&gt; &lt;div class="tab-content"&gt; &lt;div role="tabpanel" class="tab-pane active" id="A"&gt;Content in Tab A&lt;/div&gt; &lt;div role="tabpanel" class="tab-pane" id="B"&gt;Content in Tab B&lt;/div&gt; &lt;div role="tabpanel" class="tab-pane" id="C"&gt;Content in Tab C&lt;/div&gt; &lt;div role="tabpanel" class="tab-pane" id="D"&gt;Content in Tab D&lt;/div&gt; &lt;/div&gt; &lt;/div&gt;]]></summary></entry><entry><title type="html">Typography</title><link href="http://localhost:4000/basic/2020/04/28/typography.html" rel="alternate" type="text/html" title="Typography" /><published>2020-04-28T00:00:00+08:00</published><updated>2020-04-28T00:00:00+08:00</updated><id>http://localhost:4000/basic/2020/04/28/typography</id><content type="html" xml:base="http://localhost:4000/basic/2020/04/28/typography.html"><![CDATA[<h3 id="roboto">Roboto</h3>
+<p>The primary font family to be used is <strong>Roboto</strong>. The font should degrade to <strong>Sans-serif</strong> in CSS if the user’s device does not support this custom web font.</p>
+
+<p>So far we are using 3 font weights out of the family: <strong>Regular</strong>, <strong>SemiBold</strong>, <strong>Bold</strong>.</p>
+
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <p>Regular</p>
+        <p style="font-size: 140px;">Aa</p>
+        <p>
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+            abcdefghijklmnopqrstuvwxyz<br />
+            (.,:;?!$@*) 0123456789
+        </p>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>Aa<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;</span>
+    ABCDEFGHIJKLMNOPQRSTUVWXYZ<span class="nt">&lt;br&gt;</span>
+    abcdefghijklmnopqrstuvwxyz<span class="nt">&lt;br&gt;</span>
+    (.,:;?!$@*) 0123456789
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <p class="font-semibold">SemiBold</p>
+        <p style="font-size: 140px;" class="font-semibold">Aa</p>
+        <p class="font-semibold">
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+            abcdefghijklmnopqrstuvwxyz<br />
+            (.,:;?!$@*) 0123456789
+        </p>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"font-semibold"</span><span class="nt">&gt;</span>Aa<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"font-semibold"</span><span class="nt">&gt;</span>
+    ABCDEFGHIJKLMNOPQRSTUVWXYZ<span class="nt">&lt;br&gt;</span>
+    abcdefghijklmnopqrstuvwxyz<span class="nt">&lt;br&gt;</span>
+    (.,:;?!$@*) 0123456789
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <p class="font-bold">Bold</p>
+        <p style="font-size: 140px;" class="font-bold">Aa</p>
+        <p class="font-bold">
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+            abcdefghijklmnopqrstuvwxyz<br />
+            (.,:;?!$@*) 0123456789
+        </p>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"font-bold"</span><span class="nt">&gt;</span>Aa<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"font-bold"</span><span class="nt">&gt;</span>
+    ABCDEFGHIJKLMNOPQRSTUVWXYZ<span class="nt">&lt;br&gt;</span>
+    abcdefghijklmnopqrstuvwxyz<span class="nt">&lt;br&gt;</span>
+    (.,:;?!$@*) 0123456789
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h3 id="body-text">Body text</h3>
+<p>Font size: 1em</p>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <p style="margin: 0">Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+        <p style="margin: 0">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        <p style="margin: 0">Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>
+Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;</span>
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;</span>
+Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="Basic" /><summary type="html"><![CDATA[Roboto The primary font family to be used is Roboto. The font should degrade to Sans-serif in CSS if the user’s device does not support this custom web font. So far we are using 3 font weights out of the family: Regular, SemiBold, Bold. Example Regular Aa ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz (.,:;?!$@*) 0123456789 &lt;p&gt;Aa&lt;/p&gt; &lt;p&gt; ABCDEFGHIJKLMNOPQRSTUVWXYZ&lt;br&gt; abcdefghijklmnopqrstuvwxyz&lt;br&gt; (.,:;?!$@*) 0123456789 &lt;/p&gt; Example SemiBold Aa ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz (.,:;?!$@*) 0123456789 &lt;p class="font-semibold"&gt;Aa&lt;/p&gt; &lt;p class="font-semibold"&gt; ABCDEFGHIJKLMNOPQRSTUVWXYZ&lt;br&gt; abcdefghijklmnopqrstuvwxyz&lt;br&gt; (.,:;?!$@*) 0123456789 &lt;/p&gt; Example Bold Aa ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz (.,:;?!$@*) 0123456789 &lt;p class="font-bold"&gt;Aa&lt;/p&gt; &lt;p class="font-bold"&gt; ABCDEFGHIJKLMNOPQRSTUVWXYZ&lt;br&gt; abcdefghijklmnopqrstuvwxyz&lt;br&gt; (.,:;?!$@*) 0123456789 &lt;/p&gt; Body text Font size: 1em Example Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. &lt;p&gt; Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula. &lt;/p&gt; &lt;p&gt; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. &lt;/p&gt; &lt;p&gt; Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. &lt;/p&gt;]]></summary></entry><entry><title type="html">Installation</title><link href="http://localhost:4000/development/2020/04/28/Installation.html" rel="alternate" type="text/html" title="Installation" /><published>2020-04-28T00:00:00+08:00</published><updated>2020-04-28T00:00:00+08:00</updated><id>http://localhost:4000/development/2020/04/28/Installation</id><content type="html" xml:base="http://localhost:4000/development/2020/04/28/Installation.html"><![CDATA[<h3 id="dependency">Dependency</h3>
+<ol>
+  <li>Bootstrap (v3.3.7)</li>
+  <li>Font-awesome (v4.7.0)</li>
+</ol>
+
+<h3 id="import">Import</h3>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://heartlanddev.ecsi.net/style-gp.css"</span><span class="nt">&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="Development" /><summary type="html"><![CDATA[Dependency Bootstrap (v3.3.7) Font-awesome (v4.7.0) Import &lt;link rel="stylesheet" href="https://heartlanddev.ecsi.net/style-gp.css"&gt;]]></summary></entry><entry><title type="html">Button</title><link href="http://localhost:4000/basic/2020/04/28/button.html" rel="alternate" type="text/html" title="Button" /><published>2020-04-28T00:00:00+08:00</published><updated>2020-04-28T00:00:00+08:00</updated><id>http://localhost:4000/basic/2020/04/28/button</id><content type="html" xml:base="http://localhost:4000/basic/2020/04/28/button.html"><![CDATA[<p>There are two type of buttons, one is <strong>Primary Button</strong>, another is <strong>Secondary Button</strong>.</p>
+
+<h3 id="primary-button">Primary Button</h3>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <button class="button button-primary">Primary button</button>
+        <a class="button button-primary" href="" role="button">Link button</a>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button button-primary"</span><span class="nt">&gt;</span>Primary button<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button button-primary"</span> <span class="na">href=</span><span class="s">""</span> <span class="na">role=</span><span class="s">'button'</span><span class="nt">&gt;</span>Link button<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h3 id="secondary-button">Secondary Button</h3>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <button class="button button-secondary">Secondary button</button>
+        <a class="button button-secondary" href="" role="button">Link button</a>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button button-secondary"</span><span class="nt">&gt;</span>Secondary button<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button button-secondary"</span> <span class="na">href=</span><span class="s">""</span> <span class="na">role=</span><span class="s">'button'</span><span class="nt">&gt;</span>Link button<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h3 id="sizing">Sizing</h3>
+<p>There’re two sizes for buttons: the default <code class="highlighter-rouge">.button</code>, the small button with <code class="highlighter-rouge">.button-small</code>.</p>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <button class="button button-primary button-small">Small button</button>
+        <a class="button button-secondary button-small" href="" role="button">Link button</a>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button button-primary button-small"</span><span class="nt">&gt;</span>Small button<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button button-secondary button-small"</span> <span class="na">href=</span><span class="s">""</span> <span class="na">role=</span><span class="s">'button'</span><span class="nt">&gt;</span>Link button<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<h3 id="disabled-state">Disabled state</h3>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <button class="button button-primary" disabled="">Disabled button</button>
+        <a class="button button-primary disabled" href="" role="button">Disabled button</a>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button button-primary"</span> <span class="na">disabled</span><span class="nt">&gt;</span>Disabled button<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button button-primary disabled"</span> <span class="na">href=</span><span class="s">""</span> <span class="na">role=</span><span class="s">'button'</span><span class="nt">&gt;</span>Disabled button<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <button class="button button-secondary" disabled="">Disabled button</button>
+        <a class="button button-secondary disabled" href="" role="button">Disabled button</a>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"button button-secondary"</span> <span class="na">disabled</span><span class="nt">&gt;</span>Disabled button<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"button button-secondary disabled"</span> <span class="na">href=</span><span class="s">""</span> <span class="na">role=</span><span class="s">'button'</span><span class="nt">&gt;</span>Disabled button<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="Basic" /><summary type="html"><![CDATA[There are two type of buttons, one is Primary Button, another is Secondary Button. Primary Button Example Primary button Link button &lt;button class="button button-primary"&gt;Primary button&lt;/button&gt; &lt;a class="button button-primary" href="" role='button'&gt;Link button&lt;/a&gt; Secondary Button Example Secondary button Link button &lt;button class="button button-secondary"&gt;Secondary button&lt;/button&gt; &lt;a class="button button-secondary" href="" role='button'&gt;Link button&lt;/a&gt; Sizing There’re two sizes for buttons: the default .button, the small button with .button-small. Example Small button Link button &lt;button class="button button-primary button-small"&gt;Small button&lt;/button&gt; &lt;a class="button button-secondary button-small" href="" role='button'&gt;Link button&lt;/a&gt; Disabled state Example Disabled button Disabled button &lt;button class="button button-primary" disabled&gt;Disabled button&lt;/button&gt; &lt;a class="button button-primary disabled" href="" role='button'&gt;Disabled button&lt;/a&gt; Example Disabled button Disabled button &lt;button class="button button-secondary" disabled&gt;Disabled button&lt;/button&gt; &lt;a class="button button-secondary disabled" href="" role='button'&gt;Disabled button&lt;/a&gt;]]></summary></entry><entry><title type="html">Color</title><link href="http://localhost:4000/basic/2020/04/28/color.html" rel="alternate" type="text/html" title="Color" /><published>2020-04-28T00:00:00+08:00</published><updated>2020-04-28T00:00:00+08:00</updated><id>http://localhost:4000/basic/2020/04/28/color</id><content type="html" xml:base="http://localhost:4000/basic/2020/04/28/color.html"><![CDATA[<h3 id="main-color">Main Color</h3>
+<p>The main color of ECSI is GP blue.</p>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <p class="demo-color-box">Brand color <br /> #004A80</p>
+
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"brand-color"</span><span class="nt">&gt;</span>#004A80<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h3 id="secondary-color">Secondary Color</h3>
+<p>Besides the main color, you need to use different scene colors in different scenarios (for example, dangerous color indicates dangerous operation)</p>]]></content><author><name></name></author><category term="Basic" /><summary type="html"><![CDATA[Main Color The main color of ECSI is GP blue. Example Brand color #004A80 &lt;p class="brand-color"&gt;#004A80&lt;/p&gt; Secondary Color Besides the main color, you need to use different scene colors in different scenarios (for example, dangerous color indicates dangerous operation)]]></summary></entry></feed>

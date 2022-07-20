@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>ECSI Style Guide</title>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://heartlanddev.ecsi.net/style-gp.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="wrap">
+    <div class="post-nav">
+        
+        <div class="category">Basic</div>
+        <div class="arc-list">
+            
+                <a href="/basic/2020/04/28/typography.html">Typography</a>
+            
+                <a href="/basic/2020/04/28/link.html">Link</a>
+            
+                <a href="/basic/2020/04/28/color.html">Color</a>
+            
+                <a href="/basic/2020/04/28/button.html">Button</a>
+            
+                <a href="/basic/2020/04/28/ADA.html">ADA</a>
+            
+        </div>
+        
+        <div class="category">Development</div>
+        <div class="arc-list">
+            
+                <a href="/development/2020/04/28/Installation.html">Installation</a>
+            
+        </div>
+        
+        <div class="category">Navigation</div>
+        <div class="arc-list">
+            
+                <a href="/navigation/2020/05/07/accordion.html">Accordion</a>
+            
+                <a href="/navigation/2020/05/06/tabs.html">Tabs</a>
+            
+                <a href="/navigation/2020/05/06/breadcrumb.html">Breadcrumb</a>
+            
+                <a href="/navigation/2020/04/28/header.html">Header</a>
+            
+        </div>
+        
+        <div class="category">Form</div>
+        <div class="arc-list">
+            
+                <a href="/form/2020/04/28/toggle.html">Toggle Switch</a>
+            
+        </div>
+        
+        <div class="category">Notice</div>
+        <div class="arc-list">
+            
+                <a href="/notice/2020/06/08/message.html">Message</a>
+            
+                <a href="/notice/2020/05/06/alert.html">Alert</a>
+            
+        </div>
+        
+        <div class="category">Others</div>
+        <div class="arc-list">
+            
+                <a href="/others/2020/05/08/card.html">Card</a>
+            
+        </div>
+        
+    </div>
+    <div class="post-content">
+        <h1 class="page-title">Typography</h1>
+<div class="page-content">
+	<h3 id="roboto">Roboto</h3>
+<p>The primary font family to be used is <strong>Roboto</strong>. The font should degrade to <strong>Sans-serif</strong> in CSS if the user’s device does not support this custom web font.</p>
+
+<p>So far we are using 3 font weights out of the family: <strong>Regular</strong>, <strong>SemiBold</strong>, <strong>Bold</strong>.</p>
+
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <p>Regular</p>
+        <p style="font-size: 140px;">Aa</p>
+        <p>
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+            abcdefghijklmnopqrstuvwxyz<br />
+            (.,:;?!$@*) 0123456789
+        </p>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>Aa<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;</span>
+    ABCDEFGHIJKLMNOPQRSTUVWXYZ<span class="nt">&lt;br&gt;</span>
+    abcdefghijklmnopqrstuvwxyz<span class="nt">&lt;br&gt;</span>
+    (.,:;?!$@*) 0123456789
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <p class="font-semibold">SemiBold</p>
+        <p style="font-size: 140px;" class="font-semibold">Aa</p>
+        <p class="font-semibold">
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+            abcdefghijklmnopqrstuvwxyz<br />
+            (.,:;?!$@*) 0123456789
+        </p>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"font-semibold"</span><span class="nt">&gt;</span>Aa<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"font-semibold"</span><span class="nt">&gt;</span>
+    ABCDEFGHIJKLMNOPQRSTUVWXYZ<span class="nt">&lt;br&gt;</span>
+    abcdefghijklmnopqrstuvwxyz<span class="nt">&lt;br&gt;</span>
+    (.,:;?!$@*) 0123456789
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <p class="font-bold">Bold</p>
+        <p style="font-size: 140px;" class="font-bold">Aa</p>
+        <p class="font-bold">
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+            abcdefghijklmnopqrstuvwxyz<br />
+            (.,:;?!$@*) 0123456789
+        </p>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"font-bold"</span><span class="nt">&gt;</span>Aa<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"font-bold"</span><span class="nt">&gt;</span>
+    ABCDEFGHIJKLMNOPQRSTUVWXYZ<span class="nt">&lt;br&gt;</span>
+    abcdefghijklmnopqrstuvwxyz<span class="nt">&lt;br&gt;</span>
+    (.,:;?!$@*) 0123456789
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<h3 id="body-text">Body text</h3>
+<p>Font size: 1em</p>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <p style="margin: 0">Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+        <p style="margin: 0">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        <p style="margin: 0">Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>
+Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;</span>
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;</span>
+Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+</div>
+    </div>
+</div>
+
+</body>
+</html>

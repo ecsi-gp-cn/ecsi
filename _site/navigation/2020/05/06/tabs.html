@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>ECSI Style Guide</title>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://heartlanddev.ecsi.net/style-gp.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="wrap">
+    <div class="post-nav">
+        
+        <div class="category">Basic</div>
+        <div class="arc-list">
+            
+                <a href="/basic/2020/04/28/typography.html">Typography</a>
+            
+                <a href="/basic/2020/04/28/link.html">Link</a>
+            
+                <a href="/basic/2020/04/28/color.html">Color</a>
+            
+                <a href="/basic/2020/04/28/button.html">Button</a>
+            
+                <a href="/basic/2020/04/28/ADA.html">ADA</a>
+            
+        </div>
+        
+        <div class="category">Development</div>
+        <div class="arc-list">
+            
+                <a href="/development/2020/04/28/Installation.html">Installation</a>
+            
+        </div>
+        
+        <div class="category">Navigation</div>
+        <div class="arc-list">
+            
+                <a href="/navigation/2020/05/07/accordion.html">Accordion</a>
+            
+                <a href="/navigation/2020/05/06/tabs.html">Tabs</a>
+            
+                <a href="/navigation/2020/05/06/breadcrumb.html">Breadcrumb</a>
+            
+                <a href="/navigation/2020/04/28/header.html">Header</a>
+            
+        </div>
+        
+        <div class="category">Form</div>
+        <div class="arc-list">
+            
+                <a href="/form/2020/04/28/toggle.html">Toggle Switch</a>
+            
+        </div>
+        
+        <div class="category">Notice</div>
+        <div class="arc-list">
+            
+                <a href="/notice/2020/06/08/message.html">Message</a>
+            
+                <a href="/notice/2020/05/06/alert.html">Alert</a>
+            
+        </div>
+        
+        <div class="category">Others</div>
+        <div class="arc-list">
+            
+                <a href="/others/2020/05/08/card.html">Card</a>
+            
+        </div>
+        
+    </div>
+    <div class="post-content">
+        <h1 class="page-title">Tabs</h1>
+<div class="page-content">
+	<p>Divide data collections which are related yet belong to different types.</p>
+<h3 id="basic">Basic</h3>
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <div class="tabs tabs-container">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-tabs-ul" role="tablist">
+                <li class="active">
+                    <a title="Tab A" data-target="#A" role="tab" data-toggle="tab" aria-expanded="true">Tab A</a>
+                </li>
+                <li>
+                    <a title="Tab B" data-target="#B" role="tab" data-toggle="tab" aria-expanded="false">Tab B</a>
+                </li>
+                <li>
+                    <a title="Tab C" data-target="#C" role="tab" data-toggle="tab" aria-expanded="false">Tab C</a>
+                </li>
+                <li>
+                    <a title="Tab D" data-target="#D" role="tab" data-toggle="tab" aria-expanded="false">Tab D</a>
+                </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="A">Content in Tab A</div>
+                <div role="tabpanel" class="tab-pane" id="B">Content in Tab B</div>
+                <div role="tabpanel" class="tab-pane" id="C">Content in Tab C</div>
+                <div role="tabpanel" class="tab-pane" id="D">Content in Tab D</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tabs tabs-container"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Nav tabs --&gt;</span>
+    <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"nav nav-tabs nav-tabs-ul"</span> <span class="na">role=</span><span class="s">"tablist"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">title=</span><span class="s">"Tab A"</span> <span class="na">data-target=</span><span class="s">"#A"</span> <span class="na">role=</span><span class="s">"tab"</span> <span class="na">data-toggle=</span><span class="s">"tab"</span> <span class="na">aria-expanded=</span><span class="s">"true"</span><span class="nt">&gt;</span>Tab A<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">title=</span><span class="s">"Tab B"</span> <span class="na">data-target=</span><span class="s">"#B"</span> <span class="na">role=</span><span class="s">"tab"</span> <span class="na">data-toggle=</span><span class="s">"tab"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>Tab B<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">title=</span><span class="s">"Tab C"</span> <span class="na">data-target=</span><span class="s">"#C"</span> <span class="na">role=</span><span class="s">"tab"</span> <span class="na">data-toggle=</span><span class="s">"tab"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>Tab C<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">title=</span><span class="s">"Tab D"</span> <span class="na">data-target=</span><span class="s">"#D"</span> <span class="na">role=</span><span class="s">"tab"</span> <span class="na">data-toggle=</span><span class="s">"tab"</span> <span class="na">aria-expanded=</span><span class="s">"false"</span><span class="nt">&gt;</span>Tab D<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+    <span class="c">&lt;!-- Tab panes --&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tab-content"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">class=</span><span class="s">"tab-pane active"</span> <span class="na">id=</span><span class="s">"A"</span><span class="nt">&gt;</span>Content in Tab A<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">class=</span><span class="s">"tab-pane"</span> <span class="na">id=</span><span class="s">"B"</span><span class="nt">&gt;</span>Content in Tab B<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">class=</span><span class="s">"tab-pane"</span> <span class="na">id=</span><span class="s">"C"</span><span class="nt">&gt;</span>Content in Tab C<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">role=</span><span class="s">"tabpanel"</span> <span class="na">class=</span><span class="s">"tab-pane"</span> <span class="na">id=</span><span class="s">"D"</span><span class="nt">&gt;</span>Content in Tab D<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+</div>
+    </div>
+</div>
+
+</body>
+</html>
