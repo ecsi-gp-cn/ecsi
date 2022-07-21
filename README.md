@@ -1,4 +1,4 @@
-# ecsi-cn.github.io
+# ecsi-gp-cn.github.io
 
 ### Instructions
 1. Install a full Ruby development environment.
